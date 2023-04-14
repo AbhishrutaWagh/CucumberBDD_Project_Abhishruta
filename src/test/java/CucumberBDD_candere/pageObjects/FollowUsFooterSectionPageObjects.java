@@ -28,12 +28,12 @@ public class FollowUsFooterSectionPageObjects {
 
 	//----------------------------- Constructor -------------------------------------//
 
-	public FollowUsFooterSectionPageObjects(WebDriver driver,Scenario scn,WebDriverWait wait,String socialMediaName)
+	public FollowUsFooterSectionPageObjects(WebDriver driver,Scenario scn,WebDriverWait wait)
 	{
 		this.driver = driver;
 		this.scn =scn;
 		this.wait=wait;
-		this.socialMediaName=socialMediaName;
+		//this.socialMediaName=socialMediaName;
 	}
 
 	//---------------------------------- Locators for WebElements ------------------------------//

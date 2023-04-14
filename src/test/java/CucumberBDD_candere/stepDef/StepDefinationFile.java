@@ -66,7 +66,7 @@ public class StepDefinationFile {
 		searchProdObjects=new SearchProdObjects(driver,scn,wait);
 		productDescriptionPageObjects=new ProductDescriptionPageObjects(driver,wait,scn);
 		aboutUsFooterlinksPageObjects=new AboutUsFooterlinksPageObjects(driver,scn,wait);
-		followUsFooterSectionPageObjects=new FollowUsFooterSectionPageObjects(driver,scn,wait,socialMediaName);
+		followUsFooterSectionPageObjects=new FollowUsFooterSectionPageObjects(driver,scn,wait);
 
 
 	}

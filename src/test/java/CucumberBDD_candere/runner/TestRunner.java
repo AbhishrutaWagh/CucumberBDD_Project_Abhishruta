@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		features="classpath:Features",  
 		glue="CucumberBDD_candere.stepDef",  
-		tags="",
+		tags="@FollowUsFooterSection",
 		plugin = {"pretty",   
 	            "html:target/html/htmlreport.html", 
 	                                                
